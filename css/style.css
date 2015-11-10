@@ -1,0 +1,516 @@
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("/fonts/MyriadPro.otf");
+    src: url("/fonts/MyriadPro.otf?#iefix")format("embedded-opentype"),
+    url("/fonts/MyriadPro.otf") format("woff"),
+    url("/fonts/MyriadPro.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+  font-family: "Sola";
+  src: url("/fonts/SolaimanLipi.ttf");
+  src: url("/fonts/SolaimanLipi.ttf?#iefix")format("embedded-opentype"),
+    url("/fonts/SolaimanLipi.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "MPCB";
+  src: url("/fonts/MPCB.OTF");
+  src: url("/fonts/MPCB.OTF?#iefix")format("embedded-opentype"),
+    url("/fonts/MPCB.OTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  width: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "MyriadProRegular";
+  margin: 0px auto;
+  float: left;
+  color: #2E2519;
+}
+
+.content {
+  width: 100%;
+  max-width: 990px;
+  margin: 0px auto;
+  float: none !important;
+}
+
+header{
+  height: 68px;
+  float: left;
+  width: 100%;
+  background: url("/images/h-bg.png") repeat-x center;
+  position: fixed;
+  z-index: 999;
+}
+.logo{
+  float: left;
+  width: auto;
+  position: relative;
+  top:10px;
+}
+.logo a{
+  float: left;
+  width: auto;
+}
+main{
+  padding-top: 68px;
+  width: 100%;
+  float: left;
+  min-height: 1050px;
+  background: url("/images/bg.png") center;
+  background-repeat: repeat;
+}
+header nav{
+  float: right;
+  width: auto;
+}
+header nav ul{
+  width: auto;
+  float: left;
+  margin-top: 16px;
+}
+header nav ul li{
+  list-style: none;
+  width: auto;
+  float: left;
+  margin-left: 35px;
+  min-height: 35px;
+  background: url("/images/bg-menu.png");
+  background-position: center;
+  background-repeat: repeat;
+  position: relative;
+}
+header nav ul li:last-child{
+  margin-right: 9px;
+}
+header nav ul li:before{
+  width: 13px;
+  height: 36px;
+  background: url("/images/before.png") no-repeat center;
+  content: "";
+  display: block;
+  position: absolute;
+      left: -13px;
+    top: -1px;
+}
+header nav ul li:after{
+  width: 13px;
+  height: 36px;
+  background: url("/images/after.png") no-repeat center;
+  content: "";
+  display: block;
+  position: absolute;
+      right: -11px;
+    top: -1px;
+}
+header li a{
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+}
+header li:hover a{
+  color: #06a0a5;
+
+}
+main>.content{
+  padding-top: 40px;
+}
+main h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2d2419;
+  font-size: 24.64px;
+}
+main h1 b{
+  color: #06a0a5;
+}
+.last-time{
+  float: left;
+  width: 100%;
+  border: 1px solid #bbbbbb;
+  padding-left: 27px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  background: #FFF;
+}
+.last-time h3{
+  font-size: 18px;
+  font-weight: bold;
+  color: #0B8185;
+  width: 100%;
+  float: left;
+}
+.last-time h2{
+  font-family: "MPCB";
+  color: #D5D5D5;
+  font-size: 72px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.last-time h2 b{
+  color: #0B8185;
+  min-width: 130px;
+    float: left;
+}
+.left-colum{
+  float: left;
+  width: 100%;
+  max-width: 489px;
+}
+.last-time{
+  min-height: 160px;
+}
+.r-colum{
+  width: 100%;
+      max-width: 410px;
+  float: right;
+}
+.nice-list{
+  margin-top: 12px;
+  padding-left: 12px;
+}
+.nice-list li{
+  width: 100%;
+  float: left;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E2519;
+  margin-top: 10px;
+}
+.nice-list li span{
+  font-size: 24px;
+  color: #FFF;
+  font-family: 'Soli';
+  background: #0B8185;
+  padding: 1px;
+  -webkit-border-radius: 100px;
+          border-radius: 100px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 100;
+  width: auto;
+  float: left;
+  margin-right: 13px;
+  position: relative;
+  top: -5px;
+}
+main{
+  padding-bottom: 30px;
+}
+main .content{
+  padding-left: 45px;
+  padding-right: 45px;
+}
+footer{
+  width: 100%;
+  float: left;
+  text-align: center;
+  min-height: 36px;
+  background: #2F251B;
+}
+footer p{
+  padding-top: 10px;
+  width: 100%;
+  float: left;
+  color: #FFF;
+  font-size: 14px;
+}
+.div-head-form{
+  width: 100%;
+  float: left;
+  position: relative;
+  margin-bottom: -30px;
+  margin-top: 25px;
+}
+a{
+  outline: none !important;
+}
+.div-head-form span{
+  width: 195px;
+  height: 35px;
+  display: block;
+  float: left;
+  background: url(/images/Box.png) no-repeat center;
+  text-align: center;
+  font-size: 18px;
+  color: #FFF;
+  padding-top: 7px;
+  font-weight: bold;
+  margin-left: 28px;
+}
+.div-head-form p{
+  font-size: 18px;
+  color: #FFF;
+  float: right;
+  font-weight: bold;
+  background: url(/images/Layer-2.png) no-repeat center;
+  width: 390px;
+  height: 48px;
+  padding-top: 7px;
+  text-align: center;
+  position: relative;
+  left: 13px;
+}
+.root-form{
+  width: 100%;
+  float: left;
+  min-height: 250px;
+  border: 1px solid #dddddd;
+  background: #FFF;
+  padding-bottom: 20px;
+}
+.root-form form{
+  width: 100%;
+  float: left;
+}
+.input-text-init{
+  width: 320px;
+  float: left;
+  margin-left: 220px;
+  margin-top: 35px;
+}
+.input-text-init>div{
+  width: 100%;
+  font-family: "MPCB";
+  float: left;
+  padding-top: 5px;
+}
+.input-text-init label{
+  float: left;
+  width: auto;
+  font-weight: bold;
+  font-size: 16px;
+  color: #2D2419;
+  text-transform: uppercase;
+  padding-top: 6px;
+}
+.input-text-init input[type='text']{
+  float: right;
+  width: 100%;
+  max-width: 205px;
+  height: 34px;
+  border: 1px solid #dddddd;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #2D2419;
+  font-size: 14px;
+  font-weight: 500;
+}
+.button-succes{
+  float: left;
+  width: auto;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.button-succes button{
+  font-family: "MPCB";
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+      border: 1px solid #dddddd;
+      font-size: 48px;
+      color: #FFF;
+      font-weight: bold;
+      height: 60px;
+      width: 150px;
+      outline: none;
+      text-align: center;
+      cursor: pointer;
+      background: linear-gradient(to top, #301201, #85380e);
+}
+.step-3{
+  margin-top: 35px;
+  width: 100%;
+  float: left;
+  
+}
+.root-form h2{
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2F251B;
+  font-family: "MPCB";
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-top: 45px;
+}
+.root-form h4{
+  font-size: 24px;
+  color: #2F251B;
+  font-family: "MPCB";
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-top: 38px;
+}
+.step-2 .input-text-init{
+      width: 498px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 35px;
+}
+.input-text-init>div>div{
+  width: 205px;
+  float: right;
+}
+.input-text-init>div>div>div:first-child{
+  float: left;
+  width: 80px !important;
+}
+.input-text-init>div>div>div:nth-child(2){
+  float: left;
+  width: 58px !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.input-text-init>div>div>div:nth-child(3){
+  float: left;
+  width: 56px !important;
+}
+.ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: .9em; }
+#birt-yers,#typedate{
+  background: url(/images/arrow.png) no-repeat;
+  background-position: 182px 14px;
+}
+
+p.error{
+  color: red;
+  font-size: 16px;
+  width: 205px;
+  float: right;
+  text-align: center;
+}
+.step-2 .input-text-init label{
+  height: 36px;
+}
+
