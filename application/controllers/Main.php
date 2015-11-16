@@ -26,7 +26,7 @@ class Main extends CI_Controller
       'field' => 'size',
       'label' => 'Shoe size',
       'rules' => 'trim|required|htmlspecialchars|encode_php_tags'),
-    );  
+    );  //*git 2
   protected $rules_step_2 = array(
     'ice_cream' => array(
       'field' => 'ice_cream',
