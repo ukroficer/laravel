@@ -1,46 +1,191 @@
-[09-Nov-2015 14:34:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/t/public_html/application/controllers/Main.php on line 68
-[09-Nov-2015 14:34:53 UTC] PHP Stack trace:
-[09-Nov-2015 14:34:53 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[09-Nov-2015 14:34:53 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[09-Nov-2015 14:41:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/t/public_html/application/controllers/Main.php on line 68
-[09-Nov-2015 14:41:48 UTC] PHP Stack trace:
-[09-Nov-2015 14:41:48 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[09-Nov-2015 14:41:48 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[09-Nov-2015 21:58:10 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/t/public_html/application/controllers/Main.php on line 104
-[09-Nov-2015 21:58:10 UTC] PHP Stack trace:
-[09-Nov-2015 21:58:10 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[09-Nov-2015 21:58:10 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[09-Nov-2015 22:00:07 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/t/public_html/application/controllers/Main.php on line 104
-[09-Nov-2015 22:00:07 UTC] PHP Stack trace:
-[09-Nov-2015 22:00:07 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[09-Nov-2015 22:00:07 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[09-Nov-2015 22:03:00 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /home/t/public_html/application/controllers/Main.php on line 104
-[09-Nov-2015 22:03:00 UTC] PHP Stack trace:
-[09-Nov-2015 22:03:00 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[09-Nov-2015 22:03:00 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[10-Nov-2015 12:29:03 UTC] PHP Parse error:  syntax error, unexpected 'unset' (T_UNSET), expecting identifier (T_STRING) in /home/t/public_html/application/controllers/Test.php on line 19
-[10-Nov-2015 12:29:03 UTC] PHP Stack trace:
-[10-Nov-2015 12:29:03 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[10-Nov-2015 12:29:03 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[10-Nov-2015 13:41:53 UTC] PHP Fatal error:  Call to a member function get_step() on a non-object in /home/t/public_html/application/controllers/Test.php on line 11
-[10-Nov-2015 13:41:53 UTC] PHP Stack trace:
-[10-Nov-2015 13:41:53 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[10-Nov-2015 13:41:53 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[10-Nov-2015 13:41:53 UTC] PHP   3. call_user_func_array:{/home/t/public_html/system/core/CodeIgniter.php:514}() /home/t/public_html/system/core/CodeIgniter.php:514
-[10-Nov-2015 13:41:53 UTC] PHP   4. Test->index() /home/t/public_html/system/core/CodeIgniter.php:514
-[10-Nov-2015 14:05:50 UTC] PHP Parse error:  syntax error, unexpected '$time' (T_VARIABLE) in /home/t/public_html/application/controllers/Main.php on line 64
-[10-Nov-2015 14:05:50 UTC] PHP Stack trace:
-[10-Nov-2015 14:05:50 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[10-Nov-2015 14:05:50 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[10-Nov-2015 14:24:06 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/t/public_html/application/controllers/Main.php on line 69
-[10-Nov-2015 14:24:06 UTC] PHP Stack trace:
-[10-Nov-2015 14:24:06 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[10-Nov-2015 14:24:06 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[10-Nov-2015 14:25:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/t/public_html/application/controllers/Main.php on line 69
-[10-Nov-2015 14:25:10 UTC] PHP Stack trace:
-[10-Nov-2015 14:25:10 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[10-Nov-2015 14:25:10 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
-[10-Nov-2015 14:25:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/t/public_html/application/controllers/Main.php on line 69
-[10-Nov-2015 14:25:12 UTC] PHP Stack trace:
-[10-Nov-2015 14:25:12 UTC] PHP   1. {main}() /home/t/public_html/index.php:0
-[10-Nov-2015 14:25:12 UTC] PHP   2. require_once() /home/t/public_html/index.php:292
+[05-Feb-2016 00:43:24 UTC] PHP Fatal error:  Class 'Barryvdh\Debugbar\ServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[05-Feb-2016 00:43:24 UTC] PHP Stack trace:
+[05-Feb-2016 00:43:24 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[05-Feb-2016 00:43:24 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[05-Feb-2016 00:43:24 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Feb-2016 00:43:24 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Feb-2016 00:43:24 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Feb-2016 00:43:24 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[05-Feb-2016 00:43:24 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[05-Feb-2016 00:43:24 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[05-Feb-2016 00:43:24 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[05-Feb-2016 00:46:07 UTC] PHP Fatal error:  Class 'Barryvdh\Debugbar\ServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[05-Feb-2016 00:46:07 UTC] PHP Stack trace:
+[05-Feb-2016 00:46:07 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[05-Feb-2016 00:46:07 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[05-Feb-2016 00:46:07 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Feb-2016 00:46:07 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Feb-2016 00:46:07 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Feb-2016 00:46:07 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[05-Feb-2016 00:46:07 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[05-Feb-2016 00:46:07 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[05-Feb-2016 00:46:07 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[05-Feb-2016 00:46:39 UTC] PHP Fatal error:  Class 'Barryvdh\Debugbar\ServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[05-Feb-2016 00:46:39 UTC] PHP Stack trace:
+[05-Feb-2016 00:46:39 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[05-Feb-2016 00:46:39 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[05-Feb-2016 00:46:39 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Feb-2016 00:46:39 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Feb-2016 00:46:39 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Feb-2016 00:46:39 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[05-Feb-2016 00:46:39 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[05-Feb-2016 00:46:39 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[05-Feb-2016 00:46:39 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[05-Feb-2016 00:47:03 UTC] PHP Fatal error:  Class 'Barryvdh\Debugbar\ServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[05-Feb-2016 00:47:03 UTC] PHP Stack trace:
+[05-Feb-2016 00:47:03 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[05-Feb-2016 00:47:03 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[05-Feb-2016 00:47:03 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Feb-2016 00:47:03 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Feb-2016 00:47:03 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Feb-2016 00:47:03 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[05-Feb-2016 00:47:03 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[05-Feb-2016 00:47:03 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[05-Feb-2016 00:47:03 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[05-Feb-2016 00:47:49 UTC] PHP Fatal error:  Class 'Barryvdh\Debugbar\ServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[05-Feb-2016 00:47:49 UTC] PHP Stack trace:
+[05-Feb-2016 00:47:49 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[05-Feb-2016 00:47:49 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[05-Feb-2016 00:47:49 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Feb-2016 00:47:49 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Feb-2016 00:47:49 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Feb-2016 00:47:49 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[05-Feb-2016 00:47:49 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[05-Feb-2016 00:47:49 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[05-Feb-2016 00:47:49 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[05-Feb-2016 00:47:53 UTC] PHP Fatal error:  Class 'Barryvdh\Debugbar\ServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[05-Feb-2016 00:47:53 UTC] PHP Stack trace:
+[05-Feb-2016 00:47:53 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[05-Feb-2016 00:47:53 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[05-Feb-2016 00:47:53 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Feb-2016 00:47:53 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Feb-2016 00:47:53 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Feb-2016 00:47:53 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[05-Feb-2016 00:47:53 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[05-Feb-2016 00:47:53 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[05-Feb-2016 00:47:53 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[05-Feb-2016 00:47:57 UTC] PHP Fatal error:  Class 'Barryvdh\Debugbar\ServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[05-Feb-2016 00:47:57 UTC] PHP Stack trace:
+[05-Feb-2016 00:47:57 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[05-Feb-2016 00:47:57 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[05-Feb-2016 00:47:57 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Feb-2016 00:47:57 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Feb-2016 00:47:57 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Feb-2016 00:47:57 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[05-Feb-2016 00:47:57 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[05-Feb-2016 00:47:57 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[05-Feb-2016 00:47:57 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[09-Feb-2016 22:04:38 UTC] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[09-Feb-2016 22:04:38 UTC] PHP Stack trace:
+[09-Feb-2016 22:04:38 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[09-Feb-2016 22:04:38 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[09-Feb-2016 22:04:38 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[09-Feb-2016 22:04:38 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[09-Feb-2016 22:04:38 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[09-Feb-2016 22:04:38 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[09-Feb-2016 22:04:38 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[09-Feb-2016 22:04:38 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[09-Feb-2016 22:04:38 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[09-Feb-2016 22:04:59 UTC] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[09-Feb-2016 22:04:59 UTC] PHP Stack trace:
+[09-Feb-2016 22:04:59 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[09-Feb-2016 22:04:59 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[09-Feb-2016 22:04:59 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[09-Feb-2016 22:04:59 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[09-Feb-2016 22:04:59 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[09-Feb-2016 22:04:59 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[09-Feb-2016 22:04:59 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[09-Feb-2016 22:04:59 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[09-Feb-2016 22:04:59 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[09-Feb-2016 22:05:34 UTC] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[09-Feb-2016 22:05:34 UTC] PHP Stack trace:
+[09-Feb-2016 22:05:34 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[09-Feb-2016 22:05:34 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[09-Feb-2016 22:05:34 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[09-Feb-2016 22:05:34 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[09-Feb-2016 22:05:34 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[09-Feb-2016 22:05:34 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[09-Feb-2016 22:05:34 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[09-Feb-2016 22:05:34 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[09-Feb-2016 22:05:34 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[09-Feb-2016 22:05:49 UTC] PHP Fatal error:  Class 'Collective\Html\HtmlServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[09-Feb-2016 22:05:49 UTC] PHP Stack trace:
+[09-Feb-2016 22:05:49 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[09-Feb-2016 22:05:49 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[09-Feb-2016 22:05:49 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[09-Feb-2016 22:05:49 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[09-Feb-2016 22:05:49 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[09-Feb-2016 22:05:49 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[09-Feb-2016 22:05:49 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[09-Feb-2016 22:05:49 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[09-Feb-2016 22:05:49 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[19-Feb-2016 22:23:46 UTC] PHP Fatal error:  Call to undefined method Illuminate\Foundation\Application::bindShared() in /home/laravel/laravel/vendor/sleeping-owl/admin/src/SleepingOwl/AdminAuth/AdminAuthServiceProvider.php on line 21
+[19-Feb-2016 22:23:46 UTC] PHP Stack trace:
+[19-Feb-2016 22:23:46 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[19-Feb-2016 22:23:46 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[19-Feb-2016 22:23:46 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[19-Feb-2016 22:23:46 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[19-Feb-2016 22:23:46 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[19-Feb-2016 22:23:46 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[19-Feb-2016 22:23:46 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[19-Feb-2016 22:23:46 UTC] PHP   8. Illuminate\Foundation\Application->register() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:74
+[19-Feb-2016 22:23:46 UTC] PHP   9. SleepingOwl\Admin\AdminServiceProvider->register() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:531
+[19-Feb-2016 22:23:46 UTC] PHP  10. Illuminate\Foundation\Application->register() /home/laravel/laravel/vendor/sleeping-owl/admin/src/SleepingOwl/Admin/AdminServiceProvider.php:29
+[19-Feb-2016 22:23:46 UTC] PHP  11. SleepingOwl\AdminAuth\AdminAuthServiceProvider->register() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:531
+[21-Feb-2016 15:25:14 UTC] PHP Fatal error:  Call to undefined method Illuminate\Foundation\Application::bindShared() in /home/laravel/laravel/vendor/sleeping-owl/admin/src/SleepingOwl/AdminAuth/AdminAuthServiceProvider.php on line 21
+[21-Feb-2016 15:25:14 UTC] PHP Stack trace:
+[21-Feb-2016 15:25:14 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[21-Feb-2016 15:25:14 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[21-Feb-2016 15:25:14 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[21-Feb-2016 15:25:14 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[21-Feb-2016 15:25:14 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[21-Feb-2016 15:25:14 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[21-Feb-2016 15:25:14 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[21-Feb-2016 15:25:14 UTC] PHP   8. Illuminate\Foundation\Application->register() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:74
+[21-Feb-2016 15:25:14 UTC] PHP   9. SleepingOwl\Admin\AdminServiceProvider->register() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:531
+[21-Feb-2016 15:25:14 UTC] PHP  10. Illuminate\Foundation\Application->register() /home/laravel/laravel/vendor/sleeping-owl/admin/src/SleepingOwl/Admin/AdminServiceProvider.php:29
+[21-Feb-2016 15:25:14 UTC] PHP  11. SleepingOwl\AdminAuth\AdminAuthServiceProvider->register() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:531
+[21-Feb-2016 15:40:23 UTC] PHP Fatal error:  Class 'SleepingOwl\Admin\Providers\SleepingOwlServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[21-Feb-2016 15:40:23 UTC] PHP Stack trace:
+[21-Feb-2016 15:40:23 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[21-Feb-2016 15:40:23 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[21-Feb-2016 15:40:23 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[21-Feb-2016 15:40:23 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[21-Feb-2016 15:40:23 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[21-Feb-2016 15:40:23 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[21-Feb-2016 15:40:23 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[21-Feb-2016 15:40:23 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[21-Feb-2016 15:40:23 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[28-Feb-2016 14:19:35 UTC] PHP Fatal error:  Class 'SleepingOwl\Admin\Providers\SleepingOwlServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[28-Feb-2016 14:19:35 UTC] PHP Stack trace:
+[28-Feb-2016 14:19:35 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[28-Feb-2016 14:19:35 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[28-Feb-2016 14:19:35 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[28-Feb-2016 14:19:35 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[28-Feb-2016 14:19:35 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[28-Feb-2016 14:19:35 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[28-Feb-2016 14:19:35 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[28-Feb-2016 14:19:35 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[28-Feb-2016 14:19:35 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[28-Feb-2016 14:19:44 UTC] PHP Fatal error:  Class 'SleepingOwl\Admin\Providers\SleepingOwlServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[28-Feb-2016 14:19:44 UTC] PHP Stack trace:
+[28-Feb-2016 14:19:44 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[28-Feb-2016 14:19:44 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[28-Feb-2016 14:19:44 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[28-Feb-2016 14:19:44 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[28-Feb-2016 14:19:44 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[28-Feb-2016 14:19:44 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[28-Feb-2016 14:19:44 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[28-Feb-2016 14:19:44 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[28-Feb-2016 14:19:44 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
+[28-Feb-2016 14:19:58 UTC] PHP Fatal error:  Class 'SleepingOwl\Admin\Providers\SleepingOwlServiceProvider' not found in /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[28-Feb-2016 14:19:58 UTC] PHP Stack trace:
+[28-Feb-2016 14:19:58 UTC] PHP   1. {main}() /home/laravel/laravel/artisan:0
+[28-Feb-2016 14:19:58 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/laravel/laravel/artisan:36
+[28-Feb-2016 14:19:58 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[28-Feb-2016 14:19:58 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[28-Feb-2016 14:19:58 UTC] PHP   5. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[28-Feb-2016 14:19:58 UTC] PHP   6. Illuminate\Foundation\Application->registerConfiguredProviders() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[28-Feb-2016 14:19:58 UTC] PHP   7. Illuminate\Foundation\ProviderRepository->load() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[28-Feb-2016 14:19:58 UTC] PHP   8. Illuminate\Foundation\ProviderRepository->compileManifest() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[28-Feb-2016 14:19:58 UTC] PHP   9. Illuminate\Foundation\ProviderRepository->createProvider() /home/laravel/laravel/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
